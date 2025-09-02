@@ -1,0 +1,52 @@
+:root {
+  --primary-color: 255, 98, 0;
+  --secondary-color: 82, 81, 153;
+  --body-text-color: 5, 10, 18;
+  --body-muted-text-color: 173, 167, 167;
+  --body-background-color: 248, 248, 248;
+  --panel-background-color: 255, 255, 255;
+  --border-color: 105, 105, 105;
+  --table-border-color: 242, 242, 242;
+  --error-text-color: 220, 53, 69;
+}
+
+@font-face {
+  font-family: 'INGMe';
+  src: local('INGMe'), local('INGMe'),
+    url('assets/fonts/INGMeWeb-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'INGMeBold';
+  src: local('INGMe'), local('INGMe'),
+    url('assets/fonts/INGMeWeb-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: INGMe, arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(var(--body-background-color));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(var(--primary-color));
+}
